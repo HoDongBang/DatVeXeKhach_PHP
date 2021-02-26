@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;              
+}
+body {
+    background-image: url("../img/nen.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container1 {
+    width: 1220px;
+    margin: 0 auto 0 auto;
+    background:rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.container2{
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+.container2 a:first-child{
+    float: right;
+    margin-top: 20px;
+}
+.container2 center{
+    margin: 50px auto 0 auto;
+    color: red;
+}
+.container2 .table1{
+    width: 1200px;
+    margin: 30px 0;				
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.table1 table{
+	float: left;
+}
+.table1 th{
+    width: 250px;
+}
+.table1 thead{
+    color: #FFD700;
+}
+.nutstt, .nutdmk{				
+    float: right;
+    margin: 8px 5px 0 0;
+}
+.container2 h2{
+	clear: left;
+	color: white;
+}
+.table2{
+	width: 1200px;
+	padding-bottom: 20px;
+}
+.table2 th{
+	width: 200px;
+	background-color: #4682B4;
+    color: white;
+}
+.table2 thead{
+    color:  #FFD700;
+}
+.table2 tbody{
+	border: 1px solid black;
+	background-color: white;
+    color: black;
+}
+.table2 button{
+	margin: 0 10px 10px 0;
+}

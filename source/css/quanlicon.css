@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;              
+}
+.container1 {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    color: white;
+}
+.nut{
+    margin: 20px 20px 0 0;
+    float: right;              
+}
+
+.tieude{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    clear: both;
+    margin: 30px 0;
+    width: 1200px;
+    height: 50px;
+    background-color: #4682B4;
+}
+.loaixe,.xe,.container2{
+    background-color: #E6E6FA;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.loaixe,.container2{
+    margin-top: 50px;
+}
+.table{
+    margin-left: 20px;
+    background-color: white;
+    width: 1160px;
+}
+.loaixe button,.loaixe input[type="submit"],.xe button,.xe input[type="submit"],.container2 button,.container2 input[type="submit"]{
+    margin-left: 20px;
+    width: 70px; 
+}
+span{
+    color: red;
+    text-align: center;
+    width: 1200px;
+    height: 60px;
+    word-wrap: break-word;
+    display: block;
+}

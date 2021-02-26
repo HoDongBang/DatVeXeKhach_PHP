@@ -1,0 +1,64 @@
+*{
+	box-sizing:border-box;
+}
+.container1 {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+.container1 a{
+    float: right;
+    margin: 20px 5px;
+}
+.thongbao{
+	margin:50px auto 0;
+	font-size: 20px;
+	color: red;
+	width:900px;
+	text-align:center;
+}
+.thongbao span{
+	display:inline-block;
+}
+div.frm{
+	margin:80px auto 0;
+	width:450px;
+}
+.frm form{
+	border:2px solid black;
+	padding: 10px 10px 0 10px;
+	font-size: 20px;
+	color:black;
+}
+.frm input{
+	outline:none;
+}
+.frm h1{
+	text-align:center;
+}
+.frm input[type="text"],input[type="password"],select{
+	width:245px;
+	height:30px;
+	margin-bottom:10px;
+	border:none;
+	border-bottom:1px solid black;
+}
+.frm label{
+	display:inline-block;
+	height:30px;
+	width:162px;
+	line-height:30px;
+	padding:0;
+}
+.frm input[type="submit"]{
+	display:block;
+	margin:10px auto 20px;
+	width:150px;
+	height:30px;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	background-color:#3f9ecc;
+}
+.frm input[type="submit"]:hover{
+	background-color:red;
+}

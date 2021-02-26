@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;             
+}
+.container1 {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+
+.banner {
+    width: 1200px;
+    height: 150px;
+    position: fixed;
+    background-color: #FFFFE0; 
+    z-index: 3;             
+} 
+.banner button {  
+    float: right;
+    margin: 40px 5px 0 5px;
+    width: 130px;
+}  
+.banner img {
+    float: left;
+    width: 200px;
+    margin: 20px 0 0 10px;
+}
+.banner button:hover{
+    background-image: -webkit-linear-gradient(40deg,red 0%, yellow 100%);
+}
+.menu{
+    margin-top: 100px;
+    clear: both;
+    width: 1200px;
+    height: 40px;
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 5px;
+    margin-right: 10px;
+    color: #B22222;
+    font-weight: bold;
+    text-decoration: none;
+    transition:0.2s ease-in-out;
+}
+.menu a:hover{
+    color: #00CED1;
+    font-size: 30px;
+    transition:0.2s ease-in-out;
+}
+.than{
+    clear: both;
+    margin-top: 200px;
+}
+.ghe{
+    width: 400px;
+    margin: 0 auto 50px auto;
+}
+.ghe1,.ghe2,.ghe3{
+    float: left;
+    margin-right: 20px;
+    
+}
+.ghe1 div,.ghe2 div,.ghe3 div,.ghe1 label,.ghe2 label,.ghe3 label{
+    float: left;
+}
+.ghe1 div,.ghe2 div,.ghe3 div{
+    margin-right: 10px; 
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.ghe1 div{
+    background-color: gray;
+}
+.ghe2 div{
+    background-color: #00FA9A;
+}
+.ghe3 div{
+    background-color: pink;
+}
+.chonghe{
+    width: 1200px;
+    margin-top: 50px;
+}
+.baongoi{
+    width: 400px;
+    margin: 0 auto;
+}
+.ngoi{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+}
+.ngoi1{
+    width: 150px;
+    float: left;
+}
+.ngoi2{
+    width: 150px;
+    float: right; 
+}
+.hang1,.hang3{
+    float: left;
+    width: 60px;
+}
+.hang2,.hang4{
+    float: right;
+    width: 60px;
+}
+
+.chonghe input[type="checkbox"] + label{
+    display:block;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #00FA9A;
+    border-radius: 10px;
+    margin: 10px 0;
+    
+}
+.chonghe input[type="checkbox"]{
+    display:none;
+}
+.chonghe input[type="checkbox"]:checked + label{
+    background-color: pink;
+}
+.co{
+    display:block;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.db{
+    display:block;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.taixe{
+    display:block;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    margin: 10px 0;
+    color: white;
+}
+.sub{
+    clear: both;
+    width: 1200px;
+}
+.sub input{
+    margin: 30px auto;
+}
+
+.baogiuong{
+    width: 500px;
+    margin: 0 auto;
+}
+.giuong{
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+}
+.giuong1{
+    width: 150px;
+    float: left;
+}
+.giuong2{
+    width: 150px;
+    float: right; 
+}
+.hang1,.hang3{
+    float: left;
+    width: 60px;
+}
+.hang2,.hang4{
+    float: right;
+    width: 60px;
+}
+.tang{
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 22px;
+}
